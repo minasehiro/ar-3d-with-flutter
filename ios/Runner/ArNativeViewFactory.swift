@@ -17,13 +17,13 @@ class ArNativeViewFactory: NSObject, FlutterPlatformViewFactory {
     }
     
     public func createArgsCodec() -> FlutterMessageCodec & NSObjectProtocol {
-        return FlutterStandartMessageCodec.sharedInstance()
+        return FlutterStandardMessageCodec.sharedInstance()
     }
     
     func create(
         withFrame frame: CGRect,
         viewIdentifier viewId: Int64,
-        arguments arg: Any?
+        arguments args: Any?
     ) -> FlutterPlatformView {
         return ArNativeView(
             frame: frame,

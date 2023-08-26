@@ -12,6 +12,8 @@
 		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
 		41328AA42A9A0A0000D025BF /* ArNativeViewFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41328AA32A9A0A0000D025BF /* ArNativeViewFactory.swift */; };
 		41328AA82A9A0BE200D025BF /* ArNativeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41328AA72A9A0BE200D025BF /* ArNativeView.swift */; };
+		41B383882A9A3A5200EF24A1 /* sneaker.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 41B383872A9A3A5200EF24A1 /* sneaker.usdz */; };
+		41B3838A2A9A3A6100EF24A1 /* biplane.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 41B383892A9A3A6100EF24A1 /* biplane.usdz */; };
 		74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 /* AppDelegate.swift */; };
 		8467C72F6EC135A11D85D3D8 /* Pods_RunnerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 173D2CD81E3CE02CD83E43BC /* Pods_RunnerTests.framework */; };
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
@@ -54,6 +56,8 @@
 		3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = AppFrameworkInfo.plist; path = Flutter/AppFrameworkInfo.plist; sourceTree = "<group>"; };
 		41328AA32A9A0A0000D025BF /* ArNativeViewFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArNativeViewFactory.swift; sourceTree = "<group>"; };
 		41328AA72A9A0BE200D025BF /* ArNativeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArNativeView.swift; sourceTree = "<group>"; };
+		41B383872A9A3A5200EF24A1 /* sneaker.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = sneaker.usdz; sourceTree = "<group>"; };
+		41B383892A9A3A6100EF24A1 /* biplane.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = biplane.usdz; sourceTree = "<group>"; };
 		49AD95AF787464B302125345 /* Pods-RunnerTests.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.profile.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.profile.xcconfig"; sourceTree = "<group>"; };
 		61745E0700BEFD4956CD6283 /* Pods-RunnerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RunnerTests.release.xcconfig"; path = "Target Support Files/Pods-RunnerTests/Pods-RunnerTests.release.xcconfig"; sourceTree = "<group>"; };
 		74858FAD1ED2DC5600515810 /* Runner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runner-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -143,6 +147,8 @@
 		97C146F01CF9000F007C117D /* Runner */ = {
 			isa = PBXGroup;
 			children = (
+				41B383892A9A3A6100EF24A1 /* biplane.usdz */,
+				41B383872A9A3A5200EF24A1 /* sneaker.usdz */,
 				97C146FA1CF9000F007C117D /* Main.storyboard */,
 				97C146FD1CF9000F007C117D /* Assets.xcassets */,
 				97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */,
@@ -265,7 +271,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */,
+				41B3838A2A9A3A6100EF24A1 /* biplane.usdz in Resources */,
 				3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */,
+				41B383882A9A3A5200EF24A1 /* sneaker.usdz in Resources */,
 				97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */,
 				97C146FC1CF9000F007C117D /* Main.storyboard in Resources */,
 			);

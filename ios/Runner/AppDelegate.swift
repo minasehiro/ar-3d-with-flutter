@@ -8,11 +8,11 @@ import Flutter
     didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
   ) -> Bool {
     GeneratedPluginRegistrant.register(with: self)
-      
-      weak var registar = self.registar(forPlugin: "my-views")
-      let cealQrViewfactory = ArNativeViewFactory(messenger: registar!.messenger())
-      let viewRegistar = self.registar(forPlugin: "<my-views>")!
-      viewRegistar.registar(cealQrViewfactory, withId: "arNativeView")
+
+    if let registrar = self.registrar(forPlugin: "ios_method_channel_experiment")  {
+        let factory = ArNativeViewFactory(messenger: registrar.messenger())
+        registrar.register(factory, withId: "ar_native_view")
+    }
       
     return super.application(application, didFinishLaunchingWithOptions: launchOptions)
   }
