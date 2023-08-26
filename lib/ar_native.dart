@@ -3,7 +3,7 @@ import 'dart:io';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-const viewTypeStr = "arNativeView";
+const viewTypeStr = "ar_native_view";
 
 class ArNative extends StatelessWidget {
   const ArNative({super.key});

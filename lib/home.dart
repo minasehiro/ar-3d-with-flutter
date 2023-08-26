@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:lovegraph_journey/ar_earth.dart';
 
 import 'ar_guratan.dart';
 import 'ar_native.dart';
@@ -42,7 +43,7 @@ class _HomePageState extends State<HomePage> {
                 Navigator.of(context).push(
                   MaterialPageRoute(
                     builder: (context) {
-                      return const ArGuratan();
+                      return const ArEarth();
                     },
                   ),
                 );

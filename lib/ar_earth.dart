@@ -32,10 +32,9 @@ class _ArEarthState extends State<ArEarth> {
       lightingModelName: ARKitLightingModel.lambert,
       diffuse: ARKitMaterialProperty.image('lib/assets/earth.jpg'),
     );
-    final sphere = ARKitPlane(
+    final sphere = ARKitSphere(
       materials: [material],
-      width: 0.1,
-      height: 0.1,
+      radius: 0.1,
     );
 
     final node = ARKitNode(
