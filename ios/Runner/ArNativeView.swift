@@ -53,8 +53,12 @@ class ArNativeView: NSObject, FlutterPlatformView {
         arView.rightAnchor.constraint(equalTo: _view.rightAnchor, constant: -20).isActive = true
         arView.topAnchor.constraint(equalTo: _view.topAnchor).isActive = true
         arView.bottomAnchor.constraint(equalTo: _view.bottomAnchor).isActive = true
+
+        // 飛行機: biplane.usdz
+        // スニーカー: sneaker.usdz
+        // ぐらたん: guratan_ver1.usdz
         
-        self.cancellable = Entity.loadAsync(named: "biplane.usdz")
+        self.cancellable = Entity.loadAsync(named: "guratan_ver1.usdz")
             .sink(receiveCompletion: { loadCompletion in
                 if case let .failure(error) = loadCompletion {
                     print("Unable to load a model due to error \(error)")
